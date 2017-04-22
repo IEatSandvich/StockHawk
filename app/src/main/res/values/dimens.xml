@@ -1,3 +1,11 @@
 <resources>
     <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_logo_margin_start">4dp</dimen>
+    <dimen name="widget_logo_margin_end">12dp</dimen>
+    <dimen name="widget_logo_size">32dp</dimen>
 </resources>

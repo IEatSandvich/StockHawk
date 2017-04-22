@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutRoot"
+    android:orientation="vertical"
+    android:background="@color/widget_layout_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/stock_widget_header"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/logo"
+            android:layout_width="@dimen/widget_logo_size"
+            android:layout_height="@dimen/widget_logo_size"
+            android:layout_marginStart="@dimen/widget_logo_margin_start"
+            android:layout_marginEnd="@dimen/widget_logo_margin_end"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/md_grey_100"
+            android:gravity="start"
+            android:text="@string/widget_title"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/stock_widget_stocks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
