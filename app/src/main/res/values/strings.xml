@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Stock Hawk</string>
+    <string name="widget_title" translatable="false">@string/app_name</string>
 
     <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
 
@@ -37,7 +38,6 @@
     <string name="no_history_found_for_symbol">No history available for %1$s</string>
     <string name="action_zoom_out">Zoom Out</string>
 
-    <string name="widget_title">Stock Hawk</string>
-    <string name="intent_stock_symbol">STOCK_SYMBOL</string>
+    <string name="intent_stock_symbol" translatable="false">STOCK_SYMBOL</string>
 
 </resources>
